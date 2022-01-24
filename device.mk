@@ -43,6 +43,11 @@ PRODUCT_PACKAGES += \
     AliothFrameworks \
     AliothSystemUI
 
+# Set Default Device name according to MIUI
+PRODUCT_PACKAGES += \
+    SettingsProviderM2012K11AC \
+    SettingsProviderM2012K11AG \
+    SettingsProviderM2012K11AI
 
 # Shipping API level
 PRODUCT_SHIPPING_API_LEVEL := 30
