@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/cherish_alioth.mk
+    $(LOCAL_DIR)/spark_alioth.mk
 
 COMMON_LUNCH_CHOICES := \
-    cherish_alioth-user \
-    cherish_alioth-userdebug \
-    cherish_alioth-eng
+    spark_alioth-user \
+    spark_alioth-userdebug \
+    spark_alioth-eng

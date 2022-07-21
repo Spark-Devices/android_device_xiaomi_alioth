@@ -16,7 +16,7 @@ $(call inherit-product, device/xiaomi/sm8250-common/kona.mk)
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay \
-    $(LOCAL_PATH)/overlay-lineage
+    $(LOCAL_PATH)/overlay-spark
 
 PRODUCT_PACKAGES += \
     SettingsProviderM2012K11AC \
