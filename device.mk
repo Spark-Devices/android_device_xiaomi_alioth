@@ -27,7 +27,8 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/camera/camera_cnf.txt:$(TARGET_COPY_OUT_VENDOR)/etc/camera/camera_cnf.txt
 
 PRODUCT_PACKAGES += \
-    libpiex_shim
+    libpiex_shim \
+    lib-watermarkshim
 
 # Dolby Config File
 PRODUCT_COPY_FILES += \
