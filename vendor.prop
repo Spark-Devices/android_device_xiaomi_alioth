@@ -60,3 +60,16 @@ sys.haptic.runin=13
 sys.haptic.dynamiceffect=true
 sys.haptic.dynamiceffect.richtap=true
 sys.haptic.ignoreWhenCamera=true
+
+#Set fcc_main to 400mA to avoid the risk of vph_pwr droop
+persist.vendor.cp.fcc_main_ua=400000
+
+#In the taper mode, low voltage charging
+persist.vendor.cp.taper_term_mv=7000
+
+#set vfloat_offset_uv
+persist.vendor.cp.qc3p5_vfloat_offset_uv=110000
+
+#disable hvdcp_opti deamon pps control
+persist.vendor.pps.disallowed=1
+persist.vendor.hvdcp_opti.disallowed=1
