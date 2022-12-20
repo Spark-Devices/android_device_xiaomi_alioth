@@ -12,12 +12,21 @@ LOCAL_OVERRIDES_PACKAGES := \
     Maps \
     MyVerizonServices \
     OBDM_Permissions \
+    FilesPrebuilt \
     obdm_stub \
     OemDmTrigger \
     OPScreenRecord \
     Ornament \
+    Videos \
+    Video \
     SafetyHubPrebuilt \
     ScribePrebuilt \
+    Tycho \
+    Velvet \
+    stk \
+    Stk \
+    Papers \
+    NgaResources \
     Showcase \
     Snap \
     MusicFX \
