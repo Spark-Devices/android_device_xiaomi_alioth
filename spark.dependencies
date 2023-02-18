@@ -1,0 +1,26 @@
+[
+  {
+    "remote": "devices",
+    "repository": "alioth_device_xiaomi_sm8250-common",
+    "target_path": "device/xiaomi/sm8250-common",
+     "branch": "pyro"
+  },
+  {
+    "remote": "devices",
+    "repository": "vendor_xiaomi_alioth",
+    "target_path": "vendor/xiaomi/alioth",
+    "branch": "pyro"
+  },
+  {
+    "remote": "devices",
+    "repository": "alioth_vendor_xiaomi_sm8250-common",
+    "target_path": "vendor/xiaomi/sm8250-common",
+    "branch": "pyro"
+  },
+  {
+    "remote": "devices",
+    "repository": "kernel_xiaomi_alioth",
+    "target_path": "kernel/xiaomi/alioth",
+    "branch": "pyro"
+  }
+]
