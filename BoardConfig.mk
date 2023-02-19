@@ -9,6 +9,7 @@ include device/xiaomi/sm8250-common/BoardConfigCommon.mk
 
 DEVICE_PATH := device/xiaomi/alioth
 
+BUILD_BROKEN_ELF_PREBUILT_PRODUCT_COPY_FILES := true
 BUILD_BROKEN_DUP_RULES := true
 
 # Board
@@ -30,6 +31,9 @@ TARGET_OTA_ASSERT_DEVICE := alioth,aliothin
 # Properties
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
 TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
+
+# Inherit from proprietary files for miuicamera
+-include vendor/xiaomi/alioth-miuicamera/products/board.mk
 
 # Inherit from the proprietary version
 include vendor/xiaomi/alioth/BoardConfigVendor.mk
