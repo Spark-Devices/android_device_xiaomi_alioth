@@ -42,5 +42,8 @@
     <!-- Height of area above QQS where battery/time go.
          Do not read this dimen directly. Use {@link SystemBarUtils#getQuickQsOffsetHeight} instead.
          -->
-    <dimen name="quick_qs_offset_height">@dimen/status_bar_height_default</dimen>
+    <dimen name="quick_qs_offset_height">118px</dimen>
+
+    <!-- The height of the quick settings footer that holds the content -->
+    <dimen name="qs_footer_height">104dp</dimen>
 </resources>
