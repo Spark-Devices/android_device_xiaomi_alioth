@@ -126,3 +126,7 @@ persist.vendor.cp.qc3p5_vfloat_offset_uv=110000
 #disable hvdcp_opti deamon pps control
 persist.vendor.pps.disallowed=1
 persist.vendor.hvdcp_opti.disallowed=1
+
+# TouchFeature
+ro.vendor.touchfeature.type=43
+
