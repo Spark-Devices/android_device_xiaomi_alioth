@@ -550,6 +550,9 @@ vendor/etc/thermal-tgame.conf
 vendor/etc/thermal-video.conf
 vendor/etc/thermald-devices.conf
 
+# Vibator Calibration
+vendor/bin/vib_cal
+
 # Vibrator firmware
 vendor/firmware/vibrator_firmware_aidl/0_click_P_RTP.bin
 vendor/firmware/vibrator_firmware_aidl/101_offlineCountdown_RTP.bin
